@@ -101,10 +101,12 @@ body {
     top: 438px;
     left: 143px;
 }
-.responsive-home-container{
+
+.responsive-home-container {
     display: none;
 }
-.responsive-headset-caption{
+
+.responsive-headset-caption {
     display: none;
 }
 
@@ -162,9 +164,11 @@ body {
     width: 100%;
     height: 500.83px;
 }
-.about-responsive{
+
+.about-responsive {
     display: none;
 }
+
 /* Favourites */
 .favourites-section {
     width: 100%;
@@ -215,7 +219,8 @@ body {
     width: 280px;
     filter: blur(8px);
 }
-.responsive-headset{
+
+.responsive-headset {
     display: none;
 }
 
@@ -284,6 +289,10 @@ body {
     position: relative;
     bottom: 605px;
     left: 784px;
+}
+
+.responsive-tooltip-model {
+    display: none;
 }
 
 /* Sponsors */
@@ -418,60 +427,73 @@ body {
     .home-section {
         display: none;
     }
-    .responsive-home-container{
-        display:block;
-        width:100%;
-        height:1600px;
+
+    .responsive-home-container {
+        display: block;
+        width: 100%;
+        height: 1600px;
     }
-    .responsive-navbar{
+
+    .responsive-navbar {
         display: flex;
-        height:106px ;
+        height: 106px;
         width: 100%;
     }
-    .jbl-icon{
+
+    .jbl-icon {
         width: 50%;
-        height:106px ;
+        height: 106px;
     }
-    .maximize-button{
+
+    .maximize-button {
         width: 50%;
-        height:106px ;
+        height: 106px;
     }
-    .title-image{
+
+    .title-image {
         text-align: center;
         width: 80%;
     }
-    .title-image img{
+
+    .title-image img {
         width: 80%;
         padding-left: 221px;
         padding-top: 160px;
     }
-    .main-images{
+
+    .main-images {
         height: 1230px;
         display: flex;
     }
-    .buy-now-button{
+
+    .buy-now-button {
         text-align: center;
     }
-    .buy-now-button img{
+
+    .buy-now-button img {
         height: 130px;
         width: 330px;
     }
-    .maximize-button img{
+
+    .maximize-button img {
         height: 100px;
         width: 100px;
         padding-left: 80%;
         padding-top: 50px;
     }
-    .jbl-icon img{
+
+    .jbl-icon img {
         height: 80px;
         width: 160px;
         padding-left: 50px;
         padding-top: 50px;
     }
-    .responsive-icons{
+
+    .responsive-icons {
         width: 100px;
     }
-    .responsive-icons img{
+
+    .responsive-icons img {
         width: 51px;
         padding-left: 109px;
         padding-top: 400px;
@@ -479,26 +501,30 @@ body {
 
 
     /* About */
-    .about{
+    .about {
         width: 100%;
         height: 1360px;
     }
+
     .about-section {
         width: 100%;
         height: 1710px;
         background-color: #0b0a09;
     }
+
     .about-left {
         width: 100%;
         text-align: center;
         height: 1360px;
     }
+
     .about-left h2 {
         font-size: 63px;
         font-weight: 600;
         color: #ffffff;
         text-align: center;
     }
+
     .about-left p {
         font-size: 44px;
         text-align: center;
@@ -507,33 +533,40 @@ body {
         width: 80%;
         padding-left: 160px;
     }
+
     .about-left img {
         height: 130px;
         width: 330px;
     }
-    .about-right{
+
+    .about-right {
         display: none;
     }
-    .about-responsive{
+
+    .about-responsive {
         display: block;
         width: 100%;
         height: 1000px;
     }
-    .about-responsive img{
+
+    .about-responsive img {
         display: block;
         width: 70%;
         height: 970.27px;
         margin: auto;
     }
+
     /* Favourites */
     .favourites-section {
         width: 100%;
         height: 1700px;
         background-color: #0b0a09;
     }
-    .favourites{
+
+    .favourites {
         height: 1700px;
     }
+
     .favourites h2 {
         text-align: center;
         color: #ffffff;
@@ -541,21 +574,26 @@ body {
         font-size: 63px;
         line-height: 54px;
     }
-    .headset-images{
+
+    .headset-images {
         display: none;
     }
-    .responsive-headset{
+
+    .responsive-headset {
         display: block;
         text-align: center;
     }
-    .responsive-headset img{
+
+    .responsive-headset img {
         width: 100%;
     }
-    .responsive-headset-caption{
+
+    .responsive-headset-caption {
         display: block;
         text-align: center;
     }
-    .responsive-headset-caption img{
+
+    .responsive-headset-caption img {
         height: 160px;
         width: 370px;
     }
@@ -576,12 +614,12 @@ body {
 
     .specs-section {
         width: 100%;
-        height: 1480px;
+        height: 1800px;
     }
 
     .specs {
         width: 100%;
-        height: 1350px;
+        height: 1800px;
         margin: auto;
     }
 
@@ -594,15 +632,22 @@ body {
     }
 
     .iconic-product {
-        width: 70%;
-        height: 961px;
-        margin: auto;
+        display: none;
     }
 
     .specs-button img {
         height: 143px;
         width: 325px;
         padding-top: 90px;
+    }
+
+    .responsive-tooltip-model {
+        display: block;
+        text-align: center;
+    }
+
+    .responsive-tooltip-model img {
+        width: 100%;
     }
 
     /* Sponsors */
@@ -626,16 +671,19 @@ body {
     }
 
     .sponsors img {
-        height:110px;
+        height: 110px;
     }
-    .spotify-logo img{
+
+    .spotify-logo img {
         padding-right: 120px;
     }
-    .youtube-logo img{   
+
+    .youtube-logo img {
         height: 85px;
         padding-right: 93px;
     }
-    .amazon-logo img{
+
+    .amazon-logo img {
         height: 100px;
     }
 
