@@ -471,8 +471,8 @@ body {
     }
 
     .buy-now-button img {
-        height: 130px;
-        width: 330px;
+        height: 150px;
+        width: 370px;
     }
 
     .maximize-button img {
@@ -503,19 +503,19 @@ body {
     /* About */
     .about {
         width: 100%;
-        height: 1360px;
+        height: 1800px;
     }
 
     .about-section {
         width: 100%;
-        height: 1710px;
+        height: 1800px;
         background-color: #0b0a09;
     }
 
     .about-left {
         width: 100%;
         text-align: center;
-        height: 1360px;
+        height: 1800px;
     }
 
     .about-left h2 {
@@ -535,8 +535,8 @@ body {
     }
 
     .about-left img {
-        height: 130px;
-        width: 330px;
+        height: 150px;
+        width: 370px;
     }
 
     .about-right {
@@ -594,8 +594,8 @@ body {
     }
 
     .responsive-headset-caption img {
-        height: 160px;
-        width: 370px;
+        height: 170px;
+        width: 400px;
     }
 
     /* Models */
