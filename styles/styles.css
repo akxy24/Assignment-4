@@ -255,6 +255,27 @@ body {
     display: none;
 }
 
+.middle-black-model-button {
+    text-decoration: none;
+    text-align: center;
+    gap: 15px;
+    justify-content: center;
+    display: flex;
+    width: 180px;
+    height: 56px;
+    border-radius: 64px;
+    background: linear-gradient(90deg, #4A4745 0%, #151414 100%);
+    margin-left: 30%;
+}
+
+.middle-black-model-button p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 7px;
+}
+
 /* Specs  */
 .specs-section {
     width: 100%;
@@ -557,7 +578,7 @@ body {
         padding-left: 109px;
         padding-top: 400px;
     }
-
+    
     /* About */
     .about {
         width: 100%;
@@ -699,6 +720,7 @@ body {
         color: #FFFFFF;
         font-size: 40px;
         font-weight: 400;
+        margin-right: 15px;
     }
 
     /* Models */
