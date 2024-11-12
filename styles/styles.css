@@ -296,6 +296,8 @@ body {
 .specs-button img {
     height: 56px;
     width: 158px;
+    position: relative;
+    bottom: 400px;
 }
 
 .tooltip-top-left img {
